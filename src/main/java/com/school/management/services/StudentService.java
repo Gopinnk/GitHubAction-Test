@@ -3,7 +3,6 @@ package com.school.management.services;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.EntityManager;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +19,8 @@ public class StudentService {
 	 * List<StudentEntity> getStudents(); public boolean updateStudent(StudentEntity
 	 * studentEntity);
 	 */
-	@Autowired
-	DataSource dataSource;
+	/*@Autowired
+	DataSource dataSource;*/
 
 	@Autowired
 	private StudentRepository studentRepository;
